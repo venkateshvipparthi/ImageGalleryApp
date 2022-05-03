@@ -123,7 +123,6 @@
 				8424E19C2820953C008FBF03 /* Assets.xcassets */,
 				8424E19E2820953C008FBF03 /* LaunchScreen.storyboard */,
 				8424E1A12820953C008FBF03 /* Info.plist */,
-				8424E1D52820AEAD008FBF03 /* ImageSearchViewModel.swift */,
 			);
 			path = ImageGalleryApplication;
 			sourceTree = "<group>";
@@ -168,6 +167,7 @@
 		8424E1D42820AE89008FBF03 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8424E1D52820AEAD008FBF03 /* ImageSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
