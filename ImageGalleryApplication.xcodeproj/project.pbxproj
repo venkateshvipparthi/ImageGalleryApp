@@ -22,6 +22,7 @@
 		8424E1CF2820ACF8008FBF03 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1CE2820ACF8008FBF03 /* APIURLs.swift */; };
 		8424E1D12820AD1E008FBF03 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1D02820AD1E008FBF03 /* Request.swift */; };
 		8424E1D32820ADBA008FBF03 /* ImageDownLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */; };
+		8424E1D62820AEAD008FBF03 /* ImageSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1D52820AEAD008FBF03 /* ImageSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8424E1CE2820ACF8008FBF03 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
 		8424E1D02820AD1E008FBF03 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownLoaderService.swift; sourceTree = "<group>"; };
+		8424E1D52820AEAD008FBF03 /* ImageSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		8424E1922820953A008FBF03 /* ImageGalleryApplication */ = {
 			isa = PBXGroup;
 			children = (
+				8424E1D42820AE89008FBF03 /* ViewModel */,
 				8424E1CB2820AC39008FBF03 /* Service */,
 				8424E1C42820A741008FBF03 /* Model */,
 				8424E1932820953A008FBF03 /* AppDelegate.swift */,
@@ -120,6 +123,7 @@
 				8424E19C2820953C008FBF03 /* Assets.xcassets */,
 				8424E19E2820953C008FBF03 /* LaunchScreen.storyboard */,
 				8424E1A12820953C008FBF03 /* Info.plist */,
+				8424E1D52820AEAD008FBF03 /* ImageSearchViewModel.swift */,
 			);
 			path = ImageGalleryApplication;
 			sourceTree = "<group>";
@@ -159,6 +163,13 @@
 				8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		8424E1D42820AE89008FBF03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				8424E1D32820ADBA008FBF03 /* ImageDownLoaderService.swift in Sources */,
 				8424E1D12820AD1E008FBF03 /* Request.swift in Sources */,
 				8424E1C82820A80A008FBF03 /* ImageEntity.swift in Sources */,
+				8424E1D62820AEAD008FBF03 /* ImageSearchViewModel.swift in Sources */,
 				8424E1982820953A008FBF03 /* ViewController.swift in Sources */,
 				8424E1942820953A008FBF03 /* AppDelegate.swift in Sources */,
 				8424E1CF2820ACF8008FBF03 /* APIURLs.swift in Sources */,
