@@ -18,6 +18,10 @@
 		8424E1B72820953D008FBF03 /* ImageGalleryApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1B62820953D008FBF03 /* ImageGalleryApplicationUITestsLaunchTests.swift */; };
 		8424E1C82820A80A008FBF03 /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1C72820A80A008FBF03 /* ImageEntity.swift */; };
 		8424E1CA2820A832008FBF03 /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1C92820A832008FBF03 /* ImageDetail.swift */; };
+		8424E1CD2820AC8F008FBF03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1CC2820AC8F008FBF03 /* NetworkManager.swift */; };
+		8424E1CF2820ACF8008FBF03 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1CE2820ACF8008FBF03 /* APIURLs.swift */; };
+		8424E1D12820AD1E008FBF03 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1D02820AD1E008FBF03 /* Request.swift */; };
+		8424E1D32820ADBA008FBF03 /* ImageDownLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		8424E1B62820953D008FBF03 /* ImageGalleryApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8424E1C72820A80A008FBF03 /* ImageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
 		8424E1C92820A832008FBF03 /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		8424E1CC2820AC8F008FBF03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8424E1CE2820ACF8008FBF03 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
+		8424E1D02820AD1E008FBF03 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownLoaderService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 		8424E1922820953A008FBF03 /* ImageGalleryApplication */ = {
 			isa = PBXGroup;
 			children = (
+				8424E1CB2820AC39008FBF03 /* Service */,
 				8424E1C42820A741008FBF03 /* Model */,
 				8424E1932820953A008FBF03 /* AppDelegate.swift */,
 				8424E1952820953A008FBF03 /* SceneDelegate.swift */,
@@ -139,6 +148,17 @@
 				8424E1C92820A832008FBF03 /* ImageDetail.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8424E1CB2820AC39008FBF03 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8424E1CC2820AC8F008FBF03 /* NetworkManager.swift */,
+				8424E1CE2820ACF8008FBF03 /* APIURLs.swift */,
+				8424E1D02820AD1E008FBF03 /* Request.swift */,
+				8424E1D22820ADBA008FBF03 /* ImageDownLoaderService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424E1CD2820AC8F008FBF03 /* NetworkManager.swift in Sources */,
+				8424E1D32820ADBA008FBF03 /* ImageDownLoaderService.swift in Sources */,
+				8424E1D12820AD1E008FBF03 /* Request.swift in Sources */,
 				8424E1C82820A80A008FBF03 /* ImageEntity.swift in Sources */,
 				8424E1982820953A008FBF03 /* ViewController.swift in Sources */,
 				8424E1942820953A008FBF03 /* AppDelegate.swift in Sources */,
+				8424E1CF2820ACF8008FBF03 /* APIURLs.swift in Sources */,
 				8424E1962820953A008FBF03 /* SceneDelegate.swift in Sources */,
 				8424E1CA2820A832008FBF03 /* ImageDetail.swift in Sources */,
 			);
